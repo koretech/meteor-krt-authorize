@@ -5,14 +5,14 @@
  * @param {string} [publishUserId]
  * @returns {boolean}
  */
-KT.Authorize.userIsSelf = function(id, publishUserId) {
+KRT.Authorize.userIsSelf = function(id, publishUserId) {
 	if (publishUserId && publishUserId === id) {
 		return true
 	}
 	return id === Meteor.userId();
 };
 
-KT.Authorize.authorize = function(roles, group, publishUserId) {
+KRT.Authorize.authorize = function(roles, group, publishUserId) {
 
 
 

@@ -8,13 +8,13 @@ Package.onUse(function(api){
 	api.use([
 		'underscore',
 		'accounts-base',
-		'kt-core@0.1.0',
+		'krt-core@0.1.0',
 		'alanning:roles@1.2.13'
 	], ['client', 'server']);
 
 	api.imply([
 		'accounts-base',
-		'kt-core',
+		'krt-core',
 		'alanning:roles'
 	]);
 

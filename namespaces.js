@@ -1,5 +1,5 @@
 /**
  * @namespace
- * @alias KT.Authorize
+ * @alias KRT.Authorize
  */
-KT.Authorize = {};
+KRT.Authorize = {};
