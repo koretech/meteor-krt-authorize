@@ -1,6 +1,8 @@
 Package.describe({
-	summary: "Koretech Authorize Package",
-	version: '0.1.0'
+	name: 'krt:authorize',
+	summary: 'Koretech Authorize Package',
+	version: '0.1.0',
+	git: 'https://github.com/koretech/meteor-krt-authorize.git'
 });
 
 Package.onUse(function(api){
