@@ -30,7 +30,7 @@
     ],
     [
       "ddp",
-      "1.0.10"
+      "1.0.11"
     ],
     [
       "ejson",
@@ -54,7 +54,7 @@
     ],
     [
       "krt:core",
-      "0.1.0"
+      "0.1.1"
     ],
     [
       "localstorage",
@@ -62,19 +62,23 @@
     ],
     [
       "logging",
-      "1.0.4"
+      "1.0.5"
     ],
     [
       "meteor",
-      "1.1.2"
+      "1.1.3"
     ],
     [
       "minimongo",
-      "1.0.4"
+      "1.0.5"
     ],
     [
       "mongo",
-      "1.0.7"
+      "1.0.8"
+    ],
+    [
+      "mquandalle:bower",
+      "0.1.11"
     ],
     [
       "ordered-dict",
@@ -102,6 +106,6 @@
     ]
   ],
   "pluginDependencies": [],
-  "toolVersion": "meteor-tool@1.0.34",
+  "toolVersion": "meteor-tool@1.0.35",
   "format": "1.0"
 }
