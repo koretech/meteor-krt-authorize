@@ -1,7 +1,7 @@
 Package.describe({
 	name: 'krt:authorize',
 	summary: 'Koretech Authorize Package',
-	version: '0.2.0',
+	version: '0.2.2',
 	git: 'https://github.com/koretech/meteor-krt-authorize.git',
 	documentation: null
 });
@@ -16,14 +16,14 @@ Package.onUse(function(api){
 		'tracker',
 		'check',
 		'templating',
-		'krt:core@0.1.2',
+		'krt:core@0.1.3',
 		'alanning:roles@1.2.13'
 	], ['client', 'server']);
 
 	api.imply([
 		'accounts-base',
 		'krt:core',
-		'alanning:roles@1.2.13'
+		'alanning:roles'
 	]);
 
 	api.addFiles([
