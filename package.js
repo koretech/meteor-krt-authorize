@@ -1,14 +1,14 @@
 Package.describe({
 	name: 'krt:authorize',
 	summary: 'Koretech Authorize Package',
-	version: '0.2.2',
+	version: '0.2.3',
 	git: 'https://github.com/koretech/meteor-krt-authorize.git',
 	documentation: null
 });
 
 Package.onUse(function(api){
 
-	api.versionsFrom('METEOR@1.0');
+	api.versionsFrom('METEOR@1.2');
 
 	api.use([
 		'underscore',
@@ -16,7 +16,7 @@ Package.onUse(function(api){
 		'tracker',
 		'check',
 		'templating',
-		'krt:core@0.1.3',
+		'krt:core@0.1.4',
 		'alanning:roles@1.2.13'
 	], ['client', 'server']);
 
